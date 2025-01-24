@@ -49,7 +49,7 @@ void loop() {
     Serial.println("Gear changed to: " + gearToString(currentGear));
   }
 
-  delay(100);
+  delay(20);
 }
 
 Gear determineGear(int x, int y, bool reverse) {
